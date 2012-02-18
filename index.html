@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formula 1 - Alternative Point Scheme</title>
+        <link href="http://fonts.googleapis.com/css?family=Nova+Square|Ubuntu" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        
+        <header>
+            <h1>Formula 1 - Alternative Point Scheme</h1>
+            <p>
+                What if F1 still had the old (10-8-6-5-4-3-2-1) point scheme? Or
+                the <em>old</em> (10-6-4-3-2-1) point scheme? Or the even older
+                (9-6-4-3-2-1)? <del>Or any system you can think of?</del><br>
+                <strong>See the results here!</strong>
+            </p>
+            <p class="todo">
+                On my TODO list: consider fastest laps (for seasons 1950-1959),
+                allow custom point scheme. Feel free to contact me for more
+                ideas at <a href="mailto:formula1@gweax.de">formula1@gweax.de</a>.
+            </p>
+        </header>
+        
+        <section id="table">
+            <p>
+                <label for="season">Select a season</label>
+                <select id="season"></select>
+    
+                <label for="system">Select a historic point system</label>
+                <select id="system"></select>
+            </p>
+        </section>
+
+        <footer>
+            <a href="http://twitter.com/gweax">Follow me on twitter</a> | 
+            <a href="mailto:formula1@gweax.com">Contact me</a> |  
+            Uses the <a href="http://ergast.com/mrd/">Ergast Developer API</a> 
+        </footer>
+
+        <script src="alternative-points.js"></script>
+    </body>
+</html>
