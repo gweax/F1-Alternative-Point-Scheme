@@ -1,0 +1,110 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: -webkit-linear-gradient(left, rgb(216, 192, 192), rgb(240, 240, 240));
+    background: -moz-linear-gradient(left, rgb(216, 192, 192), rgb(240, 240, 240));
+    background: -ms-linear-gradient(left, rgb(216, 192, 192), rgb(240, 240, 240));
+    background: -o-linear-gradient(left, rgb(216, 192, 192), rgb(240, 240, 240));
+    background: linear-gradient(left, rgb(216, 192, 192), rgb(240, 240, 240));
+    color: rgb(40, 40, 40);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Ubuntu, sans-serif;
+}
+
+header {
+    background: rgb(240, 240, 240);
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
+    box-shadow: 0 0 1em rgba(80, 80, 80, 0.7);
+    margin: 1em 10%;
+    padding: 1em;
+}
+
+footer {
+    font-size: 0.8em;
+    margin: 0 10%;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+section {
+    background: rgb(240, 240, 240);
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
+    box-shadow: 0 0 1em rgba(80, 80, 80, 0.7);
+    margin: 0 10% 2em 10%;
+    padding: 1em;
+    
+}
+
+fieldset {
+    margin: 1em 0;
+    padding: 0.5em;
+}
+
+h1 {
+    font-family: 'Nova Square', monospace;
+    font-style: italic;
+    text-shadow: 1px 1px 0 rgb(240, 240, 240), 2px 2px 2px rgba(0,0,0, 0.5);
+    margin-bottom: 0.5em;
+}
+
+input[type=number] {
+    padding: 2px;
+    text-align: right;
+    width: 4em;
+}
+
+table {
+    width: 100%;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(216, 192, 192);
+}
+
+tbody tr:hover {
+    background-color: rgb(192, 192, 216);
+}
+
+th, td {
+    text-align: right;
+    padding: 1px 3px;
+}
+
+th:first-child,
+td:first-child {
+    text-align: left;
+}
+
+a {
+    color: rgb(60, 60, 60);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(80, 80, 80);
+    text-decoration: underline;
+}
+
+.todo {
+    font-size: 0.7em;
+}
+
+#custom {
+    display: none;
+}
